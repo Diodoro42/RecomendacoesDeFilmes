@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px red solid; */
+    box-sizing: border-box;
+   
+}
+
+/*-------------- HEADER----------------------*/
+
+body{
+    background-color: #161515;
+}
+
+#headerId{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff9f1a;
+    
+    
+}
+
+#h1Header{
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+#imagemHeader{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+/*-------------------------------------------*/
+
+
+/*---------------Filme-----------------------*/
+
+#mainId{
+    padding: 50px 15%;
+    background-color: #161515;
+    color: aliceblue; 
+}
+
+#containerFilme{
+    margin-bottom: 30px;
+    
+    text-align: center;
+    
+    
+}
+
+#imagemFilme{
+    
+    height: 400px;
+    
+}
+
+#tituloFilme{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+#sinopseFilme{
+    text-align: center;
+    margin-top: 30px;
+    
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+/*-------------------------------------------*/
+
+/*----parte dos botões, container e os botoes---*/
+
+#containerbutton{
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+button{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 4px;
+    padding: 7px 15px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    background-color: #ff9f1a;
+}
+
+/*-------------------------------------------*/
+
+
+@media (max-width: 720px ){
+    img{
+        max-width: 300px;
+        height: 400px;
+    }
+    
+}
+
+
